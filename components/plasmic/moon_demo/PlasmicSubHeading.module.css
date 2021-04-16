@@ -1,0 +1,68 @@
+.root {
+  display: inline-flex;
+  flex-direction: column;
+  position: relative;
+  width: auto;
+  height: auto;
+}
+.group327 {
+  width: 350px;
+  height: 352px;
+  display: flex;
+  overflow: hidden;
+  align-self: center;
+  margin-left: 0px;
+  margin-right: 0px;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: center;
+  flex-shrink: 0;
+  padding: 0px 16px;
+}
+.rectangle43 {
+  width: 102.26%;
+  height: 61.36%;
+  display: block;
+  position: relative;
+  top: auto;
+  left: auto;
+  border-radius: 8px;
+  background: url("/plasmic/moon_demo/images/rectangle434.png") center center / cover no-repeat
+    padding-box border-box scroll;
+}
+.box__pQpqq {
+  opacity: 0.5;
+  display: block;
+  font-size: 12px;
+  font-family: "Noto Sans JP";
+  font-weight: 400;
+  letter-spacing: 0.12em;
+  color: rgba(45, 49, 56, 1);
+  position: relative;
+  top: auto;
+  left: auto;
+}
+.box__q8Gls {
+  display: block;
+  font-size: 16px;
+  font-family: "Noto Sans JP";
+  font-weight: 500;
+  letter-spacing: 0em;
+  line-height: 1.5;
+  color: rgba(45, 49, 56, 1);
+  position: relative;
+  top: auto;
+  left: auto;
+  width: 100%;
+}
+.box__bOEej {
+  display: block;
+  font-size: 14px;
+  font-family: "Noto Sans";
+  font-weight: 400;
+  letter-spacing: 0em;
+  color: rgba(49, 172, 226, 1);
+  position: relative;
+  top: auto;
+  left: auto;
+}
