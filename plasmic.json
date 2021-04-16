@@ -1,0 +1,608 @@
+{
+  "platform": "nextjs",
+  "code": {
+    "lang": "ts",
+    "scheme": "blackbox"
+  },
+  "style": {
+    "scheme": "css-modules",
+    "defaultStyleCssFilePath": "plasmic/plasmic__default_style.module.css"
+  },
+  "images": {
+    "scheme": "public-files",
+    "publicDir": "../public",
+    "publicUrlPrefix": "/"
+  },
+  "tokens": {
+    "scheme": "theo",
+    "tokensFilePath": "plasmic-tokens.theo.json"
+  },
+  "srcDir": "components",
+  "defaultPlasmicDir": "./plasmic",
+  "projects": [
+    {
+      "projectId": "cJ1HbbDdev2TUH5UEsak1h",
+      "projectName": "Moon Demo",
+      "version": "latest",
+      "cssFilePath": "plasmic/moon_demo/plasmic_moon_demo.module.css",
+      "components": [
+        {
+          "id": "7pvn2M9CnCeV",
+          "name": "Homepage",
+          "type": "managed",
+          "projectId": "cJ1HbbDdev2TUH5UEsak1h",
+          "renderModuleFilePath": "plasmic/moon_demo/PlasmicHomepage.tsx",
+          "importSpec": {
+            "modulePath": "../pages/index.tsx"
+          },
+          "cssFilePath": "plasmic/moon_demo/PlasmicHomepage.module.css",
+          "scheme": "blackbox",
+          "componentType": "page"
+        },
+        {
+          "id": "Arh0J2djgh",
+          "name": "CaseStudy",
+          "type": "managed",
+          "projectId": "cJ1HbbDdev2TUH5UEsak1h",
+          "renderModuleFilePath": "plasmic/moon_demo/PlasmicCaseStudy.tsx",
+          "importSpec": {
+            "modulePath": "../pages/new-page.tsx"
+          },
+          "cssFilePath": "plasmic/moon_demo/PlasmicCaseStudy.module.css",
+          "scheme": "blackbox",
+          "componentType": "page"
+        }
+      ],
+      "icons": [
+        {
+          "id": "BCLsrBzeZvM",
+          "name": "SubtractIcon",
+          "moduleFilePath": "plasmic/moon_demo/icons/PlasmicIcon__Subtract.tsx"
+        },
+        {
+          "id": "fX0b9u0xza_",
+          "name": "Vector7Icon",
+          "moduleFilePath": "plasmic/moon_demo/icons/PlasmicIcon__Vector7.tsx"
+        },
+        {
+          "id": "SHvI_iX6hTI",
+          "name": "Fill1Icon",
+          "moduleFilePath": "plasmic/moon_demo/icons/PlasmicIcon__Fill1.tsx"
+        },
+        {
+          "id": "Ln6wV_dJUH5",
+          "name": "Rectangle69Icon",
+          "moduleFilePath": "plasmic/moon_demo/icons/PlasmicIcon__Rectangle69.tsx"
+        },
+        {
+          "id": "Gulfm4W8Nt1",
+          "name": "Rectangle68Icon",
+          "moduleFilePath": "plasmic/moon_demo/icons/PlasmicIcon__Rectangle68.tsx"
+        },
+        {
+          "id": "pREUX3QCCmD",
+          "name": "Rectangle58Icon",
+          "moduleFilePath": "plasmic/moon_demo/icons/PlasmicIcon__Rectangle58.tsx"
+        },
+        {
+          "id": "isKA4maiwY3",
+          "name": "Rectangle1Icon",
+          "moduleFilePath": "plasmic/moon_demo/icons/PlasmicIcon__Rectangle1.tsx"
+        },
+        {
+          "id": "fWWsDPaApkF",
+          "name": "Fill2Icon",
+          "moduleFilePath": "plasmic/moon_demo/icons/PlasmicIcon__Fill2.tsx"
+        },
+        {
+          "id": "C5qd5pvu0XR",
+          "name": "VectorIcon",
+          "moduleFilePath": "plasmic/moon_demo/icons/PlasmicIcon__Vector.tsx"
+        },
+        {
+          "id": "xch7StOAl0E",
+          "name": "Vector2Icon",
+          "moduleFilePath": "plasmic/moon_demo/icons/PlasmicIcon__Vector2.tsx"
+        },
+        {
+          "id": "2MO7iRPjvfq",
+          "name": "Vector3Icon",
+          "moduleFilePath": "plasmic/moon_demo/icons/PlasmicIcon__Vector3.tsx"
+        },
+        {
+          "id": "tdL4ef5Dcjp",
+          "name": "Vector4Icon",
+          "moduleFilePath": "plasmic/moon_demo/icons/PlasmicIcon__Vector4.tsx"
+        },
+        {
+          "id": "HPdJs1Vtsd9",
+          "name": "Vector5Icon",
+          "moduleFilePath": "plasmic/moon_demo/icons/PlasmicIcon__Vector5.tsx"
+        },
+        {
+          "id": "nKZ6r_sS-_v",
+          "name": "Vector6Icon",
+          "moduleFilePath": "plasmic/moon_demo/icons/PlasmicIcon__Vector6.tsx"
+        },
+        {
+          "id": "UqlmR-6gBoa",
+          "name": "Line1Icon",
+          "moduleFilePath": "plasmic/moon_demo/icons/PlasmicIcon__Line1.tsx"
+        },
+        {
+          "id": "KZPEcpRjg5",
+          "name": "Rectangle59Icon",
+          "moduleFilePath": "plasmic/moon_demo/icons/PlasmicIcon__Rectangle59.tsx"
+        },
+        {
+          "id": "hn4ytj3xmV",
+          "name": "Rectangle60Icon",
+          "moduleFilePath": "plasmic/moon_demo/icons/PlasmicIcon__Rectangle60.tsx"
+        },
+        {
+          "id": "6lXZjnN056I",
+          "name": "Vector8Icon",
+          "moduleFilePath": "plasmic/moon_demo/icons/PlasmicIcon__Vector8.tsx"
+        },
+        {
+          "id": "f0h19OJmHuo",
+          "name": "Vector9Icon",
+          "moduleFilePath": "plasmic/moon_demo/icons/PlasmicIcon__Vector9.tsx"
+        },
+        {
+          "id": "BZJenjoD97k",
+          "name": "Vector10Icon",
+          "moduleFilePath": "plasmic/moon_demo/icons/PlasmicIcon__Vector10.tsx"
+        },
+        {
+          "id": "v3vvxFarj8Z",
+          "name": "Vector11Icon",
+          "moduleFilePath": "plasmic/moon_demo/icons/PlasmicIcon__Vector11.tsx"
+        },
+        {
+          "id": "OU2uWDuvzUE",
+          "name": "Vector12Icon",
+          "moduleFilePath": "plasmic/moon_demo/icons/PlasmicIcon__Vector12.tsx"
+        },
+        {
+          "id": "OPWFGmTytKN",
+          "name": "Vector13Icon",
+          "moduleFilePath": "plasmic/moon_demo/icons/PlasmicIcon__Vector13.tsx"
+        },
+        {
+          "id": "oKGzJDDUCeo",
+          "name": "Vector14Icon",
+          "moduleFilePath": "plasmic/moon_demo/icons/PlasmicIcon__Vector14.tsx"
+        },
+        {
+          "id": "LkZYE7mSYAp",
+          "name": "Vector15Icon",
+          "moduleFilePath": "plasmic/moon_demo/icons/PlasmicIcon__Vector15.tsx"
+        },
+        {
+          "id": "ejRCOTI-0KU",
+          "name": "Vector16Icon",
+          "moduleFilePath": "plasmic/moon_demo/icons/PlasmicIcon__Vector16.tsx"
+        },
+        {
+          "id": "6TOfmFH3Nlm",
+          "name": "Vector17Icon",
+          "moduleFilePath": "plasmic/moon_demo/icons/PlasmicIcon__Vector17.tsx"
+        },
+        {
+          "id": "ooIVdkKVd2-",
+          "name": "Vector18Icon",
+          "moduleFilePath": "plasmic/moon_demo/icons/PlasmicIcon__Vector18.tsx"
+        },
+        {
+          "id": "WiK6eUeHPZd",
+          "name": "Vector19Icon",
+          "moduleFilePath": "plasmic/moon_demo/icons/PlasmicIcon__Vector19.tsx"
+        },
+        {
+          "id": "92gQQWYnrMd",
+          "name": "Vector20Icon",
+          "moduleFilePath": "plasmic/moon_demo/icons/PlasmicIcon__Vector20.tsx"
+        },
+        {
+          "id": "dw4G4DntpRh",
+          "name": "Vector21Icon",
+          "moduleFilePath": "plasmic/moon_demo/icons/PlasmicIcon__Vector21.tsx"
+        },
+        {
+          "id": "HTBUJXHYKYe",
+          "name": "Vector22Icon",
+          "moduleFilePath": "plasmic/moon_demo/icons/PlasmicIcon__Vector22.tsx"
+        },
+        {
+          "id": "PfwjAwWgr3V",
+          "name": "Vector23Icon",
+          "moduleFilePath": "plasmic/moon_demo/icons/PlasmicIcon__Vector23.tsx"
+        },
+        {
+          "id": "eCkIawq_YyN",
+          "name": "Vector24Icon",
+          "moduleFilePath": "plasmic/moon_demo/icons/PlasmicIcon__Vector24.tsx"
+        },
+        {
+          "id": "0b29cJ07pCB",
+          "name": "Vector25Icon",
+          "moduleFilePath": "plasmic/moon_demo/icons/PlasmicIcon__Vector25.tsx"
+        },
+        {
+          "id": "3_9lVH4W-gB",
+          "name": "Vector26Icon",
+          "moduleFilePath": "plasmic/moon_demo/icons/PlasmicIcon__Vector26.tsx"
+        },
+        {
+          "id": "WfCBuHomEbl",
+          "name": "Vector27Icon",
+          "moduleFilePath": "plasmic/moon_demo/icons/PlasmicIcon__Vector27.tsx"
+        },
+        {
+          "id": "rNkEj5El8le",
+          "name": "Vector28Icon",
+          "moduleFilePath": "plasmic/moon_demo/icons/PlasmicIcon__Vector28.tsx"
+        },
+        {
+          "id": "VrY_maCnkUp",
+          "name": "Vector29Icon",
+          "moduleFilePath": "plasmic/moon_demo/icons/PlasmicIcon__Vector29.tsx"
+        },
+        {
+          "id": "fbQQp-uDD4k",
+          "name": "Vector30Icon",
+          "moduleFilePath": "plasmic/moon_demo/icons/PlasmicIcon__Vector30.tsx"
+        },
+        {
+          "id": "NqGIlTQbGlG",
+          "name": "Vector31Icon",
+          "moduleFilePath": "plasmic/moon_demo/icons/PlasmicIcon__Vector31.tsx"
+        },
+        {
+          "id": "vCOCfX9OCje",
+          "name": "Vector32Icon",
+          "moduleFilePath": "plasmic/moon_demo/icons/PlasmicIcon__Vector32.tsx"
+        },
+        {
+          "id": "7rIpj32fE-E",
+          "name": "Vector33Icon",
+          "moduleFilePath": "plasmic/moon_demo/icons/PlasmicIcon__Vector33.tsx"
+        },
+        {
+          "id": "IqMQf1hHw5E",
+          "name": "Vector34Icon",
+          "moduleFilePath": "plasmic/moon_demo/icons/PlasmicIcon__Vector34.tsx"
+        },
+        {
+          "id": "kZJGH1ECspN",
+          "name": "Vector35Icon",
+          "moduleFilePath": "plasmic/moon_demo/icons/PlasmicIcon__Vector35.tsx"
+        },
+        {
+          "id": "4BiNbS3YkDb",
+          "name": "Vector36Icon",
+          "moduleFilePath": "plasmic/moon_demo/icons/PlasmicIcon__Vector36.tsx"
+        },
+        {
+          "id": "l13iHQ88w0x",
+          "name": "Vector37Icon",
+          "moduleFilePath": "plasmic/moon_demo/icons/PlasmicIcon__Vector37.tsx"
+        },
+        {
+          "id": "yVxp3KaXpc6",
+          "name": "Vector38Icon",
+          "moduleFilePath": "plasmic/moon_demo/icons/PlasmicIcon__Vector38.tsx"
+        },
+        {
+          "id": "g0VFoO36suq",
+          "name": "Vector39Icon",
+          "moduleFilePath": "plasmic/moon_demo/icons/PlasmicIcon__Vector39.tsx"
+        },
+        {
+          "id": "6hOi27MT9",
+          "name": "Vector40Icon",
+          "moduleFilePath": "plasmic/moon_demo/icons/PlasmicIcon__Vector40.tsx"
+        },
+        {
+          "id": "DfZ1E9GZgA",
+          "name": "Vector41Icon",
+          "moduleFilePath": "plasmic/moon_demo/icons/PlasmicIcon__Vector41.tsx"
+        },
+        {
+          "id": "FVG-hjgKZM",
+          "name": "Vector42Icon",
+          "moduleFilePath": "plasmic/moon_demo/icons/PlasmicIcon__Vector42.tsx"
+        },
+        {
+          "id": "vtjCJjCjom",
+          "name": "Vector43Icon",
+          "moduleFilePath": "plasmic/moon_demo/icons/PlasmicIcon__Vector43.tsx"
+        },
+        {
+          "id": "NAl12LkYIE",
+          "name": "Vector44Icon",
+          "moduleFilePath": "plasmic/moon_demo/icons/PlasmicIcon__Vector44.tsx"
+        },
+        {
+          "id": "W2AyXRDogF",
+          "name": "Vector45Icon",
+          "moduleFilePath": "plasmic/moon_demo/icons/PlasmicIcon__Vector45.tsx"
+        },
+        {
+          "id": "ev7gqonaJaE",
+          "name": "Vector46Icon",
+          "moduleFilePath": "plasmic/moon_demo/icons/PlasmicIcon__Vector46.tsx"
+        },
+        {
+          "id": "9a_jAlAFSx9",
+          "name": "Vector47Icon",
+          "moduleFilePath": "plasmic/moon_demo/icons/PlasmicIcon__Vector47.tsx"
+        },
+        {
+          "id": "WNEsyatAguF",
+          "name": "Vector48Icon",
+          "moduleFilePath": "plasmic/moon_demo/icons/PlasmicIcon__Vector48.tsx"
+        },
+        {
+          "id": "tmLSPw6dRc2",
+          "name": "Vector49Icon",
+          "moduleFilePath": "plasmic/moon_demo/icons/PlasmicIcon__Vector49.tsx"
+        },
+        {
+          "id": "S3tmpz9asXL",
+          "name": "Vector50Icon",
+          "moduleFilePath": "plasmic/moon_demo/icons/PlasmicIcon__Vector50.tsx"
+        },
+        {
+          "id": "fUXJN7NfR_j",
+          "name": "Vector51Icon",
+          "moduleFilePath": "plasmic/moon_demo/icons/PlasmicIcon__Vector51.tsx"
+        },
+        {
+          "id": "6JEvgfTFtzK",
+          "name": "Vector52Icon",
+          "moduleFilePath": "plasmic/moon_demo/icons/PlasmicIcon__Vector52.tsx"
+        },
+        {
+          "id": "C4WlXZU6d8R",
+          "name": "Vector53Icon",
+          "moduleFilePath": "plasmic/moon_demo/icons/PlasmicIcon__Vector53.tsx"
+        },
+        {
+          "id": "YVR9Tw_D9dl",
+          "name": "Vector54Icon",
+          "moduleFilePath": "plasmic/moon_demo/icons/PlasmicIcon__Vector54.tsx"
+        },
+        {
+          "id": "5WPMxMv-EyY",
+          "name": "Vector55Icon",
+          "moduleFilePath": "plasmic/moon_demo/icons/PlasmicIcon__Vector55.tsx"
+        },
+        {
+          "id": "HYwBOolWJNR",
+          "name": "Vector56Icon",
+          "moduleFilePath": "plasmic/moon_demo/icons/PlasmicIcon__Vector56.tsx"
+        },
+        {
+          "id": "WUXvrsQufDn",
+          "name": "Vector57Icon",
+          "moduleFilePath": "plasmic/moon_demo/icons/PlasmicIcon__Vector57.tsx"
+        },
+        {
+          "id": "Z2fTO2GLt6J",
+          "name": "Vector58Icon",
+          "moduleFilePath": "plasmic/moon_demo/icons/PlasmicIcon__Vector58.tsx"
+        },
+        {
+          "id": "7h4WI1gzAaC",
+          "name": "Vector59Icon",
+          "moduleFilePath": "plasmic/moon_demo/icons/PlasmicIcon__Vector59.tsx"
+        },
+        {
+          "id": "AuxTSKbPJsV",
+          "name": "Vector60Icon",
+          "moduleFilePath": "plasmic/moon_demo/icons/PlasmicIcon__Vector60.tsx"
+        },
+        {
+          "id": "51c-KPNUYnK",
+          "name": "Vector61Icon",
+          "moduleFilePath": "plasmic/moon_demo/icons/PlasmicIcon__Vector61.tsx"
+        },
+        {
+          "id": "HRV2NjhKMnZ",
+          "name": "Vector62Icon",
+          "moduleFilePath": "plasmic/moon_demo/icons/PlasmicIcon__Vector62.tsx"
+        },
+        {
+          "id": "wNSugFACwvt",
+          "name": "Vector63Icon",
+          "moduleFilePath": "plasmic/moon_demo/icons/PlasmicIcon__Vector63.tsx"
+        },
+        {
+          "id": "yCZOnkk8e9G",
+          "name": "Vector64Icon",
+          "moduleFilePath": "plasmic/moon_demo/icons/PlasmicIcon__Vector64.tsx"
+        },
+        {
+          "id": "6R9nuuEAebI",
+          "name": "Vector65Icon",
+          "moduleFilePath": "plasmic/moon_demo/icons/PlasmicIcon__Vector65.tsx"
+        },
+        {
+          "id": "KRQU5ktyQI7",
+          "name": "Vector66Icon",
+          "moduleFilePath": "plasmic/moon_demo/icons/PlasmicIcon__Vector66.tsx"
+        },
+        {
+          "id": "JplkiPEYhJB",
+          "name": "Vector67Icon",
+          "moduleFilePath": "plasmic/moon_demo/icons/PlasmicIcon__Vector67.tsx"
+        },
+        {
+          "id": "RXBovpp86aC",
+          "name": "Vector68Icon",
+          "moduleFilePath": "plasmic/moon_demo/icons/PlasmicIcon__Vector68.tsx"
+        },
+        {
+          "id": "kPVPTvQJzby",
+          "name": "Rectangle62Icon",
+          "moduleFilePath": "plasmic/moon_demo/icons/PlasmicIcon__Rectangle62.tsx"
+        },
+        {
+          "id": "5qe1jsMy9OV",
+          "name": "UnionIcon",
+          "moduleFilePath": "plasmic/moon_demo/icons/PlasmicIcon__Union.tsx"
+        },
+        {
+          "id": "2z1QoYNiUhy",
+          "name": "Vector69Icon",
+          "moduleFilePath": "plasmic/moon_demo/icons/PlasmicIcon__Vector69.tsx"
+        },
+        {
+          "id": "XtynCvPdbkK",
+          "name": "Vector70Icon",
+          "moduleFilePath": "plasmic/moon_demo/icons/PlasmicIcon__Vector70.tsx"
+        },
+        {
+          "id": "r4w-6gzO4o5",
+          "name": "Vector71Icon",
+          "moduleFilePath": "plasmic/moon_demo/icons/PlasmicIcon__Vector71.tsx"
+        },
+        {
+          "id": "cpRlXFgtx2P",
+          "name": "Vector72Icon",
+          "moduleFilePath": "plasmic/moon_demo/icons/PlasmicIcon__Vector72.tsx"
+        },
+        {
+          "id": "wLyZiVdnO-",
+          "name": "Vector73Icon",
+          "moduleFilePath": "plasmic/moon_demo/icons/PlasmicIcon__Vector73.tsx"
+        },
+        {
+          "id": "LyuR1i90j7G",
+          "name": "Rectangle692Icon",
+          "moduleFilePath": "plasmic/moon_demo/icons/PlasmicIcon__Rectangle692.tsx"
+        },
+        {
+          "id": "eIXso2ENb_T",
+          "name": "Rectangle682Icon",
+          "moduleFilePath": "plasmic/moon_demo/icons/PlasmicIcon__Rectangle682.tsx"
+        }
+      ],
+      "images": [
+        {
+          "id": "s7xORf4zt",
+          "name": "Rectangle 32",
+          "filePath": "../public/plasmic/moon_demo/images/rectangle32.png"
+        },
+        {
+          "id": "Q9TsFut7i1",
+          "name": "Rectangle 44",
+          "filePath": "../public/plasmic/moon_demo/images/rectangle44.png"
+        },
+        {
+          "id": "tVgrPL81A1",
+          "name": "Rectangle 43",
+          "filePath": "../public/plasmic/moon_demo/images/rectangle43.png"
+        },
+        {
+          "id": "hnCdxbVeX5",
+          "name": "Rectangle 43 2",
+          "filePath": "../public/plasmic/moon_demo/images/rectangle432.png"
+        },
+        {
+          "id": "Y7KAIZeo0s",
+          "name": "Rectangle 43 3",
+          "filePath": "../public/plasmic/moon_demo/images/rectangle433.png"
+        },
+        {
+          "id": "JEWraEvXjj",
+          "name": "image 4",
+          "filePath": "../public/plasmic/moon_demo/images/image4.png"
+        },
+        {
+          "id": "uDPbBzM_t",
+          "name": "image 5",
+          "filePath": "../public/plasmic/moon_demo/images/image5.png"
+        },
+        {
+          "id": "WjrCgngpm",
+          "name": "image 6",
+          "filePath": "../public/plasmic/moon_demo/images/image6.png"
+        },
+        {
+          "id": "yFxFI_7SNm",
+          "name": "image 8",
+          "filePath": "../public/plasmic/moon_demo/images/image8.png"
+        },
+        {
+          "id": "rPrbgyh2zI",
+          "name": "image 7",
+          "filePath": "../public/plasmic/moon_demo/images/image7.png"
+        },
+        {
+          "id": "A6jDpzzwRs",
+          "name": "Rectangle 43 4",
+          "filePath": "../public/plasmic/moon_demo/images/rectangle434.png"
+        },
+        {
+          "id": "AgvJ849zFl",
+          "name": "Rectangle 44 2",
+          "filePath": "../public/plasmic/moon_demo/images/rectangle442.png"
+        },
+        {
+          "id": "gSg6MVqR1k",
+          "name": "Rectangle 45",
+          "filePath": "../public/plasmic/moon_demo/images/rectangle45.png"
+        },
+        {
+          "id": "YKMl5gmSVS",
+          "name": "image 2",
+          "filePath": "../public/plasmic/moon_demo/images/image2.png"
+        },
+        {
+          "id": "VAs-3tsLF8F",
+          "name": "Ellipse 48",
+          "filePath": "../public/plasmic/moon_demo/images/ellipse48.svg"
+        },
+        {
+          "id": "JIVyDFjMnl_",
+          "name": "Ellipse 49",
+          "filePath": "../public/plasmic/moon_demo/images/ellipse49.svg"
+        },
+        {
+          "id": "z9EWefyxbf7",
+          "name": "Ellipse 50",
+          "filePath": "../public/plasmic/moon_demo/images/ellipse50.svg"
+        },
+        {
+          "id": "KaTsPeYmacg",
+          "name": "Ellipse 51",
+          "filePath": "../public/plasmic/moon_demo/images/ellipse51.svg"
+        },
+        {
+          "id": "Pos4FeAqOsU",
+          "name": "Ellipse 52",
+          "filePath": "../public/plasmic/moon_demo/images/ellipse52.svg"
+        }
+      ],
+      "projectApiToken": "LQ71fIn0OSNTFh9367Ba5TUnT1OzMvMfqF3tZif4CKVOgNkgyCExDFojlUQ8laDZISmA3q0zJyNqy5Oy8nw"
+    }
+  ],
+  "globalVariants": {
+    "variantGroups": [
+      {
+        "id": "GCL-IggAdE8c",
+        "name": "Screen",
+        "projectId": "cJ1HbbDdev2TUH5UEsak1h",
+        "contextFilePath": "plasmic/moon_demo/PlasmicGlobalVariant__Screen.tsx"
+      }
+    ]
+  },
+  "nextjsConfig": {
+    "pagesDir": "../pages"
+  },
+  "cliVersion": "0.1.135",
+  "$schema": "https://unpkg.com/@plasmicapp/cli@0.1.135/dist/plasmic.schema.json"
+}
